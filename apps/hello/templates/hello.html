@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static "css/hello.css" %}" />
+</head>
+<body>
+    <h1>42 Coffee Cups Test Assignment</h1>
+    <div class="contact-left">
+        <p>{{ contact.name }}</p>
+        <p>{{ contact.surname }}</p>
+        <p>{{ contact.date_of_birth }}</p>
+        <div class="bio">{{ contact.bio }}</div>
+    </div>
+    <div class="contact-right">
+        <h2>Contacts</h2>
+        <p>Email: {{ contact.email }}</p>
+        <p>Jabber: {{ contact.jabber }}</p>
+        <p>Skype: {{ contact.skype }}</p>
+        <div class="other-contacts">Other contacts:: {{ contact.other_contacts }}</div>
+    </div>
+</body>
+</html>
