@@ -1,6 +1,8 @@
 42-test template
 ===========================
 
+Hi! I'm Anton and do test task for 42cc
+
 A Django 1.6+ project template
 
 Use fortytwo_test_task.settings when deploying with getbarista.com
